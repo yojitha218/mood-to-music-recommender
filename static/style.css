@@ -1,0 +1,52 @@
+body {
+    background: linear-gradient(135deg, #1d2671, #c33764);
+    color: white;
+}
+
+.mood-card {
+    width: 100%;   /* MUST */
+    padding: 30px 15px;   /* increased */
+    font-size: 25px;
+    border-radius: 15px;
+    background: rgba(255,255,255,0.1);
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+.mood-card:hover {
+    transform: scale(1.1);
+    background: rgba(255,255,255,0.3);
+}
+
+.desc {
+    font-size: 12px;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.mood-card:hover .desc {
+    opacity: 1;
+}
+#languageSection {
+    transition: 0.5s;
+}
+.selected {
+    border: 3px solid #fff;
+    background: rgba(255,255,255,0.4) !important;
+    transform: scale(1.08);
+    box-shadow: 0 0 15px rgba(255,255,255,0.6);
+}
+.mood-card:hover {
+    transform: scale(1.05);
+}
+.form-select {
+    height: 50px;
+    font-size: 16px;
+}
+
+.btn {
+    width: 200px;
+    font-size: 18px;
+}
